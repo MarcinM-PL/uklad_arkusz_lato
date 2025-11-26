@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+        }
+        header,footer{
+            border: 1px solid black;
+            background-color: tomato;
+            color: mistyrose;
+            padding: 10px;
+        }
+        nav{
+            background-color: tomato;
+            color: mistyrose;
+            border: 1px solid black;
+            width: 20%;
+        }
+        #one,#two,#three{
+            border: 1px solid black;
+            background-color: #FFAEA5;
+            height: 170px;
+        }
+        #one{
+            background-color: mistyrose;
+            color: black;
+        }
+        main{
+            border: 1px solid black;
+            background-color: mistyrose;
+            width: 80%;
+            height: 510px;
+
+        }
+        section{
+            border: 1px solid black;
+            background-color: #FFAEA5;
+        }
+        #con{
+            display:flex;
+            flex-direction: row;
+        }
+        #back{
+            display: flex;
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            align-items: center;
+            width: 250px;
+            border: 4px solid rgba(80, 79, 79, 0.753); 
+            padding: 20px; background-color: rgba(0, 0, 0, 0.877);
+
+        }
+        a{
+            margin: 50px;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-size: x-large;
+        }
+        a:hover{
+            transform: scale(1.2);
+        }
+
+    </style>
+</head>
+<body>
+    <a href="index.html"><div id="back">powrót</div></a>
+    <header>
+        <h1>Blok nagłówkowy</h1>
+    </header>
+    <section id="con">
+        <nav>
+            <h3>Blok nawigacyjny</h3>
+            <div id="one">
+                <h2>Blok 1</h2>
+            </div>
+            <div id="two">
+                <h2>Blok 2</h2>  
+            </div>
+            <div id="three">
+                <h2>Blok 3</h2>  
+            </div>
+        </nav>
+        <main>
+            <h3>Blok główny</h3>
+            <section id="on">
+                <h2>Sekcja 1</h2>
+            </section>
+            <section id="tw">
+                <h2>Sekcja 2</h2>
+            </section>
+            <section id="thr">
+                <h2>Sekcja 3</h2>
+            </section>
+        </main>
+    </section>
+    <footer>
+        <h1>Blok stopki</h1>
+    </footer>
+    
+</body>
+</html>

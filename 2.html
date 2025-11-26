@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            display: flex;
+        }
+        aside{
+            border: 1px solid black;
+            background-color: bisque;
+            width: 20%;
+            height: 610px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        section{
+            display: flex;
+            flex-direction: column;
+            width: 80%;
+        }
+        header, nav, footer{
+            height: 50px;
+            background-color: silver;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #center{
+            height: 450px;
+            background-color: bisque;
+             border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        footer{
+            padding-top: 4px;
+        }
+        #back{
+            display: flex;
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            align-items: center;
+            width: 250px;
+            border: 4px solid rgba(80, 79, 79, 0.753); 
+            padding: 20px; background-color: rgba(0, 0, 0, 0.877);
+
+        }
+        a{
+            margin: 50px;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-size: x-large;
+        }
+        a:hover{
+            transform: scale(1.2);
+        }
+
+    </style>
+</head>
+<body>
+    <a href="index.html"><div id="back">powrót</div></a>
+        <aside>
+            <h2>Blok boczny</h2>
+        </aside>
+        <section>
+            <header>
+                <h1>Blok nagłówkowy</h1>
+            </header>
+            <nav>
+                <h2>Blok nawigacyjny</h2>
+            </nav>
+            <main id="center">
+                <h1>Blok główny</h1>
+            </main>
+            <footer>
+                <h1>Blok stopki</h1>
+            </footer>
+        </section>
+
+</body>
+</html>

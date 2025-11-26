@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+        }
+        footer,header{
+            border: 1px solid black;
+            background-color: #00838F;
+            color: #B2DFDB;
+            padding: 10px;
+        }
+        aside,section{
+            border: 1px solid black;
+            width: 50%;
+            height: 600px;
+        }
+        aside{
+            background-color: #B2DFDB;
+        }
+        section{
+            background-color: #B2DFDB;
+        }
+        main{
+            display: flex;
+            flex-direction: row;
+        }
+        #back{
+            display: flex;
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            align-items: center;
+            width: 250px;
+            border: 4px solid rgba(80, 79, 79, 0.753); 
+            padding: 20px; background-color: rgba(0, 0, 0, 0.877);
+
+        }
+        a{
+            margin: 50px;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-size: x-large;
+        }
+        a:hover{
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html"><div id="back">powrót</div></a>
+    <header>
+        <h1>Blok nawigacyjny</h1>
+    </header>
+    <main>
+        <h3>Blok główny</h3>
+        <aside>
+            <h2>Blok boczny</h2>
+        </aside>
+        <section>
+            <h2>Sekcja</h2>
+        </section>
+    </main>
+    <footer>
+        <h1>Blok stopki</h1>
+    </footer>
+    
+</body>
+</html>

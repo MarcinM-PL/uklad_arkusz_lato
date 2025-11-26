@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center ;
+            display: flex;
+            flex-direction: column;
+
+        }
+        #pic{
+            background-color: silver;
+            border: 1px solid black;
+            
+        }
+        main{
+            background-color: silver;
+            border: 1px solid black;
+            display: flex;
+
+        }
+        #left{
+            background-color: navajowhite;
+            border: 1px solid black;
+            margin: 10px;
+            padding: 20px;
+            width: 35%;
+            height: 400px;
+            color: dimgray;
+        }
+        nav{
+            background-color: bisque;
+            border: 1px solid black;
+            width: 50%;
+            height: 50px;
+
+        }
+        #right{
+            background-color: bisque;
+            border: 1px solid black;
+            width: 50%;
+            height: 420px;
+        }
+       
+        footer,header{
+            padding: 5px;
+            background-color:sienna;
+            color: white;
+        }
+        #con{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        #back{
+            display: flex;
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            align-items: center;
+            width: 250px;
+            border: 4px solid rgba(80, 79, 79, 0.753); 
+            padding: 20px; background-color: rgba(0, 0, 0, 0.877);
+
+        }
+        a{
+            margin: 50px;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-size: x-large;
+        }
+        a:hover{
+            transform: scale(1.2);
+        }
+    </style>
+</head>
+<body>
+    <a href="index.html"><div id="back">powrót</div></a>
+    <header>
+        <h1>Blok nagłówkowy</h1>
+    </header>
+    <section id="pic">
+        <h2>Blok sekcji obrazów</h2>
+    </section>
+    <main>
+        <h3>Blok główny</h3>
+        <section id="left">
+            <h2>Blok sekcji lewej</h2>
+        </section>
+        <section id="con">
+            <nav>
+                <h2>Blok nawigacyjny</h2>
+            </nav>
+            <section id="right">
+                <h2>Blok sekcji prawej</h2>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <h2>Blok stopki</h2>
+    </footer>
+    
+</body>
+</html>

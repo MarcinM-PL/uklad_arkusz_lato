@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="PL">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+        }
+        header,footer{
+            border: 1px solid black;
+            background-color: bisque;
+            height: 60px;
+        }
+        nav{
+            border: 1px solid black;
+            background-color: #824555;
+            height: 60px;
+  
+        }
+        aside{
+            width: 20%;
+            height: 562px;
+            border: 1px solid black;
+            background-color: #824555;
+        }
+        #left,#center{
+            width: 50%;
+            height: 500px;
+            border: 1px solid black;
+            background-color: #824555;
+
+        }
+        #row{
+            display: flex;
+            flex-direction: row;
+        }
+        #col{
+            display: flex;
+            flex-direction: column;
+            
+            background-color: black;
+        }
+        main{
+            display: flex;
+            flex-direction: row;
+        }
+        #back{
+            display: flex;
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10px;
+            align-items: center;
+            width: 250px;
+            border: 4px solid rgba(80, 79, 79, 0.753); 
+            padding: 20px; background-color: rgba(0, 0, 0, 0.877);
+
+        }
+        a{
+            margin: 50px;
+            color: rgb(255, 255, 255);
+            text-decoration: none;
+            font-size: x-large;
+        }
+        a:hover{
+            transform: scale(1.2);
+        }
+
+    </style>
+</head>
+<body>
+    <a href="index.html"><div id="back">powrót</div></a>
+    <header>
+        <h1>Blok nagłówkowy</h1>
+    </header>
+    <main>    
+        <h3>Blok główny</h3>
+        <section id="col">
+            <nav>
+                <h2>Blok nawigacyjny</h2>
+            </nav>
+            <section id="row">
+                <section id="left">
+                    <h2>Sekcja lewa</h2>
+                </section>
+                <section id="center">
+                    <h2>Sekcja środkowa</h2>
+                </section>
+            </section>
+        </section>
+        <aside>
+            <h2>Blok boczny</h2>
+        </aside>    
+    </main>
+    <footer>
+        <h1>Blok stopki</h1>
+    </footer>
+    
+</body>
+</html>
